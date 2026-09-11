@@ -40,29 +40,33 @@
 .seccion-hero {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  padding: 60px 40px;
+  justify-content: flex-end; /* Disposición invertida como indica la guía */
+  padding: 80px 40px;
   background-color: #292524;
   background-image: url('images/hero.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 8px;
+  margin-bottom: 40px;
 }
 
 .hero-contenido {
-  max-width: 600px;
+  max-width: 500px;
+  background-color: rgba(41, 37, 36, 0.9);
+  padding: 30px;
+  border-radius: 8px;
 }
 
 .hero-titulo {
-  font-size: 36px;
+  font-size: 32px;
   color: #fafaf9;
   margin-bottom: 16px;
 }
 
 .hero-subtitulo {
-  font-size: 18px;
-  color: #f9f5f2;
+  font-size: 16px;
+  color: #a8a29e;
   margin-bottom: 24px;
 }
 
