@@ -134,3 +134,14 @@
 .tarjeta-img-3 {
   background-image: url('images/serv_3.jpg'); 
 }
+
+.pie-pagina {
+  background-color: #0c0a09;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.texto-copyright {
+  color: #78716c;
+  font-size: 14px;
+}
