@@ -1,1 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+.cuerpo-pagina {
+  background-color: #1c1917;
+  color: #fafaf9;
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #292524;
+}
+
+.logotipo-texto {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f97316;
+}
+
+.menu-navegacion {
+  display: flex;
+  gap: 20px;
+}
+
+.enlace-navegacion {
+  color: #d6d3d1;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.contenido-principal {
+  padding: 40px;
+}
+
+.seccion-hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Disposición invertida como indica la guía */
+  padding: 80px 40px;
+  background-color: #292524;
+  background-image: url('images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.hero-contenido {
+  max-width: 500px;
+  background-color: rgba(41, 37, 36, 0.9);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.hero-titulo {
+  font-size: 32px;
+  color: #fafaf9;
+  margin-bottom: 16px;
+}
+
+.hero-subtitulo {
+  font-size: 16px;
+  color: #a8a29e;
+  margin-bottom: 24px;
+}
+
+.boton-principal {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #f97316;
+  color: #fafaf9;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.seccion-servicios {
+  margin-bottom: 40px;
+}
+
+.titulo-seccion {
+  font-size: 28px;
+  color: #fafaf9;
+  margin-bottom: 24px;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tarjeta-horizontal {
+  display: flex;
+  background-color: #292524;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.imagen-tarjeta {
+  width: 200px;
+  background-color: #44403c;
+  background-image: url('images/serv_1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contenido-tarjeta {
+  padding: 24px;
+  flex: 1;
+}
+
+.titulo-tarjeta {
+  font-size: 20px;
+  color: #f97316;
+  margin-bottom: 12px;
+}
+
+.descripcion-tarjeta {
+  font-size: 15px;
+  color: #d6d3d1;
+}
+
+.tarjeta-img-2 {
+  background-image: url('images/serv_2.jpg'); 
+}
+
+.tarjeta-img-3 {
+  background-image: url('images/serv_3.jpg'); 
+}
+
+.pie-pagina {
+  background-color: #0c0a09;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.texto-copyright {
+  color: #78716c;
+  font-size: 14px;
+}
+
+.enlace-navegacion:hover {
+  color: #f97316;
+}
+
 
