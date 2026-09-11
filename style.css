@@ -79,3 +79,50 @@
   font-weight: bold;
   border-radius: 4px;
 }
+
+.seccion-servicios {
+  margin-bottom: 40px;
+}
+
+.titulo-seccion {
+  font-size: 28px;
+  color: #fafaf9;
+  margin-bottom: 24px;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tarjeta-horizontal {
+  display: flex;
+  background-color: #292524;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.imagen-tarjeta {
+  width: 200px;
+  background-color: #44403c;
+  background-image: url('images/serv_1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contenido-tarjeta {
+  padding: 24px;
+  flex: 1;
+}
+
+.titulo-tarjeta {
+  font-size: 20px;
+  color: #f97316;
+  margin-bottom: 12px;
+}
+
+.descripcion-tarjeta {
+  font-size: 15px;
+  color: #d6d3d1;
+}
