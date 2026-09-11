@@ -7,3 +7,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.encabezado-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #292524;
+}
+
+.logotipo-texto {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f97316;
+}
+
+.menu-navegacion {
+  display: flex;
+  gap: 20px;
+}
+
+.enlace-navegacion {
+  color: #d6d3d1;
+  text-decoration: none;
+  font-size: 16px;
+}
