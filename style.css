@@ -126,3 +126,7 @@
   font-size: 15px;
   color: #d6d3d1;
 }
+
+.tarjeta-img-2 {
+  background-image: url('images/serv_2.jpg'); 
+}
